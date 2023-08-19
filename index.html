@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/56dff67509.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- Menu Fixado -->
+  <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+    <div class="container">
+      <a class="navbar-brand" href="#">Portfólio</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSuportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Navegacao do toggle">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicos">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero Section-->
+  <section class="bgimage" id="inicio">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="glass">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 heroText">
+            <h1 class="heroTitle">Olá, me chamo Hélio sou</h1>
+            <h3 class="heroDesc">Desenvolvedor Front-End</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- About Section -->
+    <section id="sobre" class="sobre">
+      <div class="container mt-4 pt-4">
+        <div class="row mt-6 conteudo">
+          <div class="col-lg-8" id="texto">
+            <h2 class="text-center">Sobre Mim</h2>
+            <p>
+              Meu nome é Hélio! Sou Desenvolvedor front-ende um apaixonado por tecnologia,
+              no momento estou cursando Análise e Desenvolvimento de Sistema na Unifacvest.
+              Também sempre estou fazendo cursos extra curriculaes para poder aprimorar mais
+              os meus conhecimentos.
+            </p>
+          </div>
+          <div class="col-lg-4 foto">
+            <img src="img/minha foto2.png" alt="Sobre Mim" class="aboutImage">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Service Section -->
+    <section class="servicos" id="servicos">
+      <div class="container">
+        <h2 class="text-center titulo">Habilidades</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 mt-4">
+          <div class="card servicesText">
+            <div class="cardBody">
+              <i class="fa-brands fa-html5 servicesIcon"></i>
+              <h3 class="cardTile mt-3">HTML 5</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-4">
+          <div class="card servicesText">
+            <div class="cardBody">
+              <i class="fa-brands fa-css3-alt servicesIcon"></i>
+              <h3 class="cardTile mt-3">CSS 3</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-4">
+          <div class="card servicesText">
+            <div class="cardBody">
+              <i class="fa-brands fa-js servicesIcon"></i>
+              <h3 class="cardTile mt-3">Javascript</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfólio Section-->
+    <section id="portfolio" class="portfolio">
+      <h2 class="text-center titulo">Projetos</h2>
+      <div class="container mt-3">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="img/thumbs/estanteThumb.png" alt="Card Estante" style="width: 100%;">
+              <div class="cardBody">
+                <h3 class="cardTitle">Projeto Estante de livros</h3>
+                <p class="cardText text-center">
+                  Esse foi nosso primeiro projeto do curso, nele nós usamos as tecnologias como HTML, CSS e alguns
+                  conceitos para a contrução do projeto como
+                  listas, tabelas, divisões e imagens.
+                </p>
+                <div class="text-center botao">
+                  <a href="Estante/index.html" target="_blank">Acesse o link</LInk></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="img/thumbs/locadoraThumb.png" alt="Card Locadora" style="width: 100%;">
+              <div class="cardBody">
+                <h3 class="cardTitle">Projeto Locadora 2000</h3>
+                <p class="cardText text-center">
+                  No segundo projeto apredemos sobre Bootstrap e para que ele serve, também demos nossos primeiros
+                  passos na liguagem de programação javascript
+                  contruindo um formulario com validação.
+                </p>
+                <div class="text-center botao">
+                  <a href="Locadora/index.html" target="_blank">Acesse o link</LInk></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="img/thumbs/cartaoThumb.png" alt="Card Cartão" style="width: 100%;">
+              <div class="cardBody">
+                <h3 class="cardTitle">Projeto Cartão de Visita</h3>
+                <p class="cardText">
+                  Nesse projeto contruimos um cartão de visita, usando CSS para fazer uma animação flip e o Html para
+                  fazer o card.
+                </p>
+                <div class="text-center botao">
+                  <a href="Cartão/index.html" target="_blank">Acesse o link</LInk></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="img/thumbs/marioThumb.png" alt="Card Mario" style="width: 100%;">
+              <div class="cardBody">
+                <h3 class="cardTitle">Projeto Mario</h3>
+                <p class="cardText">
+                  Nesse projeto vimos quantas coisas da pra fazer com a linguagem de programação Javascript e até criar
+                  um jogo.
+                </p>
+                <div class="text-center botao">
+                  <a href="Mario/index.html" target="_blank">Acesse o link</LInk></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section-->
+    <section id="contato">
+      <div class="container mt-3 mb-3 contactContent">
+        <h2 class="text-center titulo">Contate Me</h2>
+        <div class="row mt4">
+          <div class="col-lg-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28173.860102081384!2d-54.3752508029742!3d-28.032650232767427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94feb736aa992145%3A0x3b69667089cac50!2zR2lydcOhLCBSUywgOTg4NzAtMDAw!5e0!3m2!1spt-BR!2sbr!4v1690920167745!5m2!1spt-BR!2sbr"
+              width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-lg-6 mt-4 contato">
+                <div class="card servicesText">
+                  <div class="cardBody">
+                    <i class="fa-solid fa-mobile contactIcon"></i>
+                    <h3>Telefone</h3>
+                    <p>(54)99242-7767</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mt-4 contato">
+                <div class="card servicesText">
+                  <div class="cardBody">
+                    <i class="fa-solid fa-envelope contactIcon"></i>
+                    <h3>Email</h3>
+                    <p>helio.moura985@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center text-white">
+    <div class="container p-4 pb-0">
+      <div class="row mt-4 mb-4">
+        <div class="col-lg-3">
+          <a href="https://github.com/heliodacosta" target="_blank">
+            <i class="fa-brands fa-github-alt footerIcon"></i>
+          </a>
+        </div>
+        <div class="col-lg-3">
+          <a href="https://www.linkedin.com/in/heliodcm/" target="_blank">
+            <i class="fa-brands fa-linkedin footerIcon"></i>
+          </a>
+        </div>
+        <div class="col-lg-3">
+          <a href="https://www.facebook.com/helio.costa.12" target="_blank">
+            <i class="fa-brands fa-facebook footerIcon"></i>
+          </a>
+        </div>
+        <div class="col-lg-3">
+          <a href="https://wa.me/54992427767" target="_blank">
+            <i class="fa-brands fa-whatsapp footerIcon"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center p-3 footerDev">
+      <p>Desenvolvido por Hélio da Costa</p>
+    </div>
+  </footer>
+</body>
+
+</html>

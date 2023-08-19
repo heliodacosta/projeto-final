@@ -1,0 +1,220 @@
+#sobre,
+#servicos,
+#portfolio,
+#contato {
+    padding: 6rem 0;
+}
+
+.bgimage {
+    height: 100vh;
+    position: relative;
+    background: url(img/colagem-de-fundo-de-programacao.jpg);
+    background-size: cover;
+}
+
+.glass {
+    position: absolute;
+    height: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border: 1px solid rgba(255, 255, 255, 0.41);
+
+}
+
+.navbar {
+    background-color: #001328;
+}
+
+.navbar a {
+    color: white;
+    padding: 0.5rem;
+}
+
+.navbar a:hover {
+    background-color: #00FBBE;
+    color: black;
+    border-radius: 4px;
+}
+
+main {
+    background: #003641;
+    
+}
+
+main h2 {
+    font-weight: bold;
+    color: white;
+}
+
+.heroTile {
+    font-size: 4.5rem;
+    font-weight: bolder;
+}
+
+.heroDesc {
+    font-size: 2rem;
+}
+
+.heroText {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #001328;
+}
+
+.aboutImage {
+    width: 80%;
+    margin: 0 60px;
+    border-radius: 30%;
+    border: 2px solid #00FBBE;
+}
+
+.sobre {
+    color: white;
+    background-color: #003641;
+}
+
+.sobre h2 {
+    text-align: center;
+    width: 70%;
+    margin: 30px 50px;
+    padding-top: 30px;
+}
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+    padding: 0 2rem;
+    background: #001328;
+    color: white;
+}
+
+.servicesIcon {
+    height: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.cardTitle {
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    color: #001328;
+}
+
+.card:hover .servicesIcon .servicesText.card {
+    color: #00FBBE;
+}
+
+.servicesText:hover {
+    box-shadow: 0 0 1.5rem #00FBBE
+}
+
+.servicos {
+    margin: 40px;
+}
+
+.servicos .cardBody {
+    flex: 1 1 30rem;
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.servicos .cardBody:hover {
+    color: #00FBBE;
+}
+
+.portfolio .card {
+    border: 3px solid white;
+    box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.37);
+    border-radius: 5px;
+}
+
+.titulo {
+  margin: 60px;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.botao a {
+    background-color: #8d8b8b;
+    color: white;
+    border-radius: 4px;
+    padding: 9px;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.botao a:hover {
+    background: #00FBBE;
+    color: black;
+}
+
+.contactIcon {
+   font-size: 2.8rem;
+   padding: 50px 0 10px 0px;
+   color: #00FBBE;
+}
+
+#contato, .contato {
+   text-align: center;
+   font-size: 0.9rem;
+}
+
+footer {
+    background-color: #016369;
+}
+
+.footerIcon {
+    font-size: 2rem;
+    color: white;
+}
+
+.footerIcon:hover {
+    color: #c4c4c4;
+}
+
+.footerDev {
+    background-color: #001328;
+}
+
+
+
+.footerIcon {
+    display: inline flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: white;
+    transition: .5s ease;
+    padding: 15px;
+}
+
+.footerIcon:hover {
+    color: #00FBBE;
+    box-shadow: 0 0 1rem #00FBBE; 
+    background: #003641;  
+}
+
+
